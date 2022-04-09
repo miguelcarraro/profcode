@@ -1,0 +1,10 @@
+#ajax {background-color: black;
+    display: inline;
+    color: blueviolet;
+    border: 2px solid red
+}
+nav{
+    background-color: gray;
+    color: rgb(192, 136, 245);
+    display: inline-block;
+}
