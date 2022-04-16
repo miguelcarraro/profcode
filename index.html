@@ -9,47 +9,48 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <img src="./imagens/logoajax.png" width="100" alt="Logotípo não carregado">
-        <hr>
-        <nav>
-            <a href="./index.html">Home |</a>
-            <a href="./musica.html">Músicas para estudar |</a>
-            <a href="./aulas.html">Aulas |</a>
-            <a href="./contato.html">Contato</a>
+    <header class="cabecalho">
+        <img class="logo" src="./imagens/logoajax.png" width="100" alt="Logotípo não carregado">
+        <nav class="menu">
+            <a class="itemMenu" href="./index.html">Home </a>
+            <a class="itemMenu" href="./musica.html">Músicas para estudar </a>
+            <a class="itemMenu" href="./aulas.html">Aulas </a>
+            <a class="itemMenu" href="./contato.html">Contato</a>
         </nav>
     </header>
-    <hr>
-    <main>
-        <h2>Um pouco sobre o professor Ajax:</h2>
-        <p>Ensino a programar em 4 linguagens atualmente sendo elas:</p>
-        <figure>
-            <img src="./imagens/python.jpg" width="150" alt="Logotípo não carregado">
-                <figcaption>Python que é uma linguagem Open-Source de propósito geral usado bastante em data science, machine learning, desenvolvimento de web, desenvolvimento de aplicativos, automação de scripts, fintechs e mais.
-                </figcaption>
-        </figure>
-        <hr>
-        <figure>
-            <img src="./imagens/java.png" width="150" alt="Logotípo não carregado">
-                <figcaption>Java que é uma linguagem de programação e plataforma computacional lançada pela primeira vez pela Sun Microsystems em 1995. Existem muitas aplicações e sites que não funcionarão, a menos que você tenha o Java instalado, e mais desses são criados todos os dias. 
-                </figcaption>
-        </figure>
-        <hr>
-        <figure>
-            <img src="./imagens/csharp.jpg" width="150" alt="Logotípo não carregado">
-                <figcaption>C# (CSharp) é uma linguagem de programação orientada a objetos criada pela Microsoft, faz parte da sua plataforma . Net. A companhia baseou C# na linguagem C++ e Java. C# (CSharp)
-                </figcaption>
-        </figure>
-        <hr>
-        <figure>
-            <img src="./imagens/progR.png" width="150" alt="Logotípo não carregado">
-                <figcaption>R é uma linguagem versátil, desenvolvida por dois pesquisadores do departamento de Estatística da Universidade Auckland, na Nova Zelândia. Ela surgiu a partir da necessidade de um programa que auxiliasse na manipulação, análise e visualização de dados. Nesse sentido, desde 2020, essa ferramenta de código aberto e multiparadigma ocupa o 33º lugar no ranking de linguagens mais utilizadas do GitHub. 
-                </figcaption>
-        </figure>
+    
+    <main class="conteudo">
+        <section class="conteudoPrincipal">
+            <div class="mainTitulo">
+                <h1 class="tituloPrincipal">Um pouco sobre o professor Ajax:</h1>
+                <h2 class="conteudoTitulo">Ensino a programar em 4 linguagens atualmente sendo elas:</h2>
+            </div>
+            <hr width="100%">
+            <figure>
+                <img class="imagemLang" src="./imagens/python.jpg" width="150" alt="Logotípo não carregado">
+                    <p class="paragrafoImg">Python que é uma linguagem Open-Source de propósito geral usado bastante em data science, machine learning, desenvolvimento de web, desenvolvimento de aplicativos, automação de scripts, fintechs e mais.</p>
+            </figure>
+            
+            <hr width="100%">
+            <figure>
+                <img class="imagemLang" src="./imagens/java.png" width="150" alt="Logotípo não carregado">
+                    <p class="paragrafoImg">Java que é uma linguagem de programação e plataforma computacional lançada pela primeira vez pela Sun Microsystems em 1995. Existem muitas aplicações e sites que não funcionarão, a menos que você tenha o Java instalado, e mais desses são criados todos os dias. </p>
+            </figure>
+            <hr width="100%">
+            <figure>
+                <img class="imagemLang" src="./imagens/csharp.jpg" width="150" alt="Logotípo não carregado">
+                    <p class="paragrafoImg">C# (CSharp) é uma linguagem de programação orientada a objetos criada pela Microsoft, faz parte da sua plataforma . Net. A companhia baseou C# na linguagem C++ e Java. C# (CSharp)</p>
+            </figure>
+            <hr width="100%">
+            <figure>
+                <img class="imagemLang" src="./imagens/progR.png" width="150" alt="Logotípo não carregado">
+                    <p class="paragrafoImg">R é uma linguagem versátil, desenvolvida por dois pesquisadores do departamento de Estatística da Universidade Auckland, na Nova Zelândia. Ela surgiu a partir da necessidade de um programa que auxiliasse na manipulação, análise e visualização de dados. Nesse sentido, desde 2020, essa ferramenta de código aberto e multiparadigma ocupa o 33º lugar no ranking de linguagens mais utilizadas do GitHub. </p>
+            </figure>
+        </section>    
     </main>
 
     <footer>
-        <hr>
+        <hr width="100%">
         <small>&copy;Criado por Miguel Carraro - 2022</small>
     </footer>
 </body>

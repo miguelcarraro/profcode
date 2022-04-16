@@ -8,30 +8,32 @@
     <title>Músicas</title>
 </head>
 <body>
-    <header>
-        <img src="./imagens/logoajax.png" width="100" alt="Logotípo não carregado">
-        <hr>
-        <nav>
-            <a href="./index.html">Home |</a>
-            <a href="./musica.html">Músicas para estudar |</a>
-            <a href="./aulas.html">Aulas |</a>
-            <a href="./contato.html">Contato</a>
+    <header class="cabecalho">
+        <img class="logo" src="./imagens/logoajax.png" width="100" alt="Logotípo não carregado">
+        <nav class="menu">
+            <a class="itemMenu" href="./index.html">Home </a>
+            <a class="itemMenu" href="./musica.html">Músicas para estudar </a>
+            <a class="itemMenu" href="./aulas.html">Aulas </a>
+            <a class="itemMenu" href="./contato.html">Contato</a>
         </nav>
     </header>
-    <hr>
-    <main>
-        <h3>Algumas músicas para usar enquanto estiver estudando programação:</h3>
-        <hr>
-        <audio src="./musicasEstudo/classiclife.mp3" controls></audio> <br> <strong>indicação clássica.</strong>
-        <hr>
-        <audio src="./musicasEstudo/classicbrave.mp3" controls></audio> <br> <strong>Mais uma indicação clássica.</strong>
-        <hr>
-        <audio src="./musicasEstudo/lofi.mp3" controls></audio> <br> <strong>Um Lo-fi extremamente aconchegante.</strong>
-
+    
+    <main class="conteudo">
+        <section class="conteudoPrincipal">
+            <h3 class="titulosAula">Algumas músicas para usar enquanto estiver estudando programação:</h3>
+            <hr width="100%">
+        </section>
+        <section class="musicas">
+            <audio src="./musicasEstudo/classiclife.mp3" controls></audio>  <p class="conteudoMusicas">Indicação clássica.</p>
+            <hr width="100%">
+            <audio src="./musicasEstudo/classicbrave.mp3" controls></audio>  <p class="conteudoMusicas">Mais uma indicação clássica.</p>
+            <hr width="100%">
+            <audio src="./musicasEstudo/lofi.mp3" controls></audio>  <p class="conteudoMusicas">Um Lo-fi extremamente aconchegante.></p>
+        </section>
     </main>
 
     <footer>
-        <hr>
+        <hr width="100%">
         <small>&copy;Criado por Miguel Carraro - 2022</small>
     </footer>
 </body>
