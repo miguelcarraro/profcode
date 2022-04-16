@@ -113,3 +113,8 @@ footer{
     font-size: 14px;
     color: #ecd6c4;
 }
+
+.imagemLang{
+    display: block;
+    margin: 0 auto;
+}
